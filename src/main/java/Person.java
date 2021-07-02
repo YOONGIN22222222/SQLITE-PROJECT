@@ -4,26 +4,28 @@ public class Person {
     private int korScore;
     private int engScore;
     private int mathScore;
+    private int scienScore;
     private String grade;
     private String regDate;
 
-    public Person(int num, String name, int korScore, int engScore, int mathScore, String grade, String regDate) {
+    public Person(int num, String name, int korScore, int engScore, int mathScore, int scienScore , String grade, String regDate) {
         this.num = num;
         this.name = name;
         this.korScore = korScore;
         this.engScore = engScore;
         this.mathScore = mathScore;
+        this.scienScore = scienScore;
         this.grade = grade;
         this.regDate = regDate;
     }
 
     private int sum(){
-        return this.korScore + this.engScore + this.mathScore;
+        return this.korScore + this.engScore + this.mathScore + this.scienScore ;
     }
 
-    public static String calculateGrade(int korScore, int engScore, int mathScore){
-        int sum = korScore + engScore + mathScore;
-        double avg = sum / 3;
+    public static String calculateGrade(int korScore, int engScore, int mathScore , int scienScore ){
+        int sum = korScore + engScore + mathScore + scienScore;
+        double avg = sum / 4;
 
         if(avg >= 95){
             return "A+";
@@ -45,10 +47,10 @@ public class Person {
             return "F";
         }
     }
-
+//calcul 에서 파라미터 4개 보내주도록 수정하기
     @Override
     public String toString() {
-        return this.num+1 + ". " + this.name + " " +  this.korScore + "  " + this.engScore + "  " + this.mathScore + "   " + sum() + "  " + sum()/3 + "   "  + this.grade + "     "  +this.regDate ;
+        return this.num+1 + ". " + this.name + " " +  this.korScore + "  " + this.engScore + "  " + this.mathScore + "   " + this.scienScore + "   " +sum() + "  " + sum()/4 + "   "  + this.grade + "     "  +this.regDate ;
     }
 
     public int getNum() {
@@ -90,6 +92,15 @@ public class Person {
     public void setMathScore(int mathScore) {
         this.mathScore = mathScore;
     }
+
+    public int getScienScore() {
+        return scienScore;
+    }
+
+    public void setScienScore(int scienScore) { this.scienScore = scienScore;
+    }
+
+
 
     public String getRegDate() {
         return regDate;
