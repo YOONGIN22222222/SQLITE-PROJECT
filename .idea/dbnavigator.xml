@@ -32,22 +32,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="fd64040d-5824-495c-b9b9-9f1f96c04e94">
-      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[CREATE TABLE IF NOT EXISTS PERSON (  
-       ID  INTEGER  PRIMARY KEY  AUTOINCREMENT,
-       NAME     TEXT     NOT NULL, 
-       KOR_SCORE     INTEGER     NOT NULL, 
-       ENG_SCORE     INTEGER     NOT NULL, 
-       MATH_SCORE     INTEGER     NOT NULL, 
-       SCIEN_SCORE    INTEGER     NOT NULL, 
-       GRADE     TEXT     NOT NULL, 
-       REG_DATE    TEXT     NOT NULL  )
-       
-
-SELECT * FROM PERSON;
-
-
-
-//https://toytvstory.tistory.com/1469]]></console>
+      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[SELECT * FROM PERSON;]]></console>
     </connection>
     <connection id="260076d6-4860-42bc-9c3b-632985a3daf0">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -181,7 +166,7 @@ SELECT * FROM PERSON;
           <description value="" />
           <database-type value="SQLITE" />
           <config-type value="BASIC" />
-          <database-version value="9999.0" />
+          <database-version value="3.34" />
           <driver-source value="BUILTIN" />
           <driver-library value="" />
           <driver value="" />
