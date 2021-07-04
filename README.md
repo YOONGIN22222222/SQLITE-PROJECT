@@ -32,41 +32,31 @@ DELETE FROM PERSON WHERE ID = ? ";
   # 실행 결과
   
 ## 1.메뉴<br/>
-![image](https://user-images.githubusercontent.com/86584041/124346217-9d38c000-dc18-11eb-9e30-eb76ffe3dd96.png)
+![image](https://user-images.githubusercontent.com/83248175/124380020-73090000-dcf5-11eb-97ed-fcadf277ad4c.png)
 <br/><br/>
 
 ## 2.CRUD 기능<br/>
 ### 읽기 기능 <br/>
-![image](https://user-images.githubusercontent.com/86584041/124346256-ceb18b80-dc18-11eb-88e9-0267e02a5ce7.png)
+![image](https://user-images.githubusercontent.com/83248175/124380039-9af86380-dcf5-11eb-8bfd-024623a6511b.png)
 <br/><br/>
 update <br/>
-### 전<br/>
-![image](https://user-images.githubusercontent.com/86584041/124346291-f1dc3b00-dc18-11eb-9a64-22e34a837f2c.png)
+### (update)수정 전
+<br/>
+![image](https://user-images.githubusercontent.com/83248175/124380084-cf6c1f80-dcf5-11eb-91d1-36195d881640.png)
 
 <br/><br/>
-### 후
+### (update)수정 후<br/>
 <br/>
-![image](https://user-images.githubusercontent.com/86584041/124346300-fb65a300-dc18-11eb-8c47-a882b716149e.png)
-
+![image](https://user-images.githubusercontent.com/83248175/124380115-f4f92900-dcf5-11eb-9f95-597edad23d68.png)
 ### delete
 <br/>
-![image](https://user-images.githubusercontent.com/86584041/124346313-0a4c5580-dc19-11eb-8b79-8c76bf08b4a0.png)
+![image](https://user-images.githubusercontent.com/83248175/124380129-0fcb9d80-dcf6-11eb-8a83-8183de25cb24.png)
 <br/><br/>
-### 결과  :
-<br/>
-![image](https://user-images.githubusercontent.com/86584041/124346322-146e5400-dc19-11eb-9c01-3ec0d30ff55a.png)
-<br/><br/>
-
 
 ### - 검색 <br/>
--![image](https://user-images.githubusercontent.com/86584041/124346336-29e37e00-dc19-11eb-97c0-8bebd1df6a04.png)
+![image](https://user-images.githubusercontent.com/83248175/124380180-502b1b80-dcf6-11eb-9040-c33f311142f5.png)
 <br/><br/>
 
-## 3.파일 불러오기
-<br/>
-![image](https://user-images.githubusercontent.com/86584041/124346386-75962780-dc19-11eb-8d2d-124bb836e032.png)
-<br/><br/>
-
-## 4. 파일 저장하기<br/> 
-![image](https://user-images.githubusercontent.com/86584041/124346369-5ac3b300-dc19-11eb-88f9-a304dc9908d0.png)
+## 3. 파일 저장하기<br/> 
+![image](https://user-images.githubusercontent.com/83248175/124380205-6e911700-dcf6-11eb-84a3-268bd0d5a864.png)
 <br/><br/>
